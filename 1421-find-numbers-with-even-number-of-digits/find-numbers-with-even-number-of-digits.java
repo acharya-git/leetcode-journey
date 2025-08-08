@@ -10,7 +10,7 @@ class Solution {
                 count++;
                 nums[i]=nums[i]/10;
             }
-            if(count%2==0  ){
+            if(count%2==0 && count!=0){
                 finalCount++;
             }
         }
